@@ -1,0 +1,30 @@
+{
+  "name": "ethconnector",
+  "version": "1.0.0",
+  "description": "Daemon to connect Ethereum and Harmony chains for dapps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harmony-one/ethconnector.git"
+  },
+  "keywords": [
+    "Harmony",
+    "Ethereum",
+    "Connector"
+  ],
+  "author": "Harmony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harmony-one/ethconnector/issues"
+  },
+  "homepage": "https://github.com/harmony-one/ethconnector#readme",
+  "dependencies": {
+    "@harmony-js/core": "0.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "web3": "^1.2.6"
+  }
+}
